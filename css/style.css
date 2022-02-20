@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  
+
+    .divtitulo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    @media  (max-width: 768px){
+        .divtitulo{
+            margin: 0%;
+            padding: 0%;
+            justify-content: center;
+            display: flex;
+        }
+        
+    }
+
+
+footer{
+    height: 5rem;
+    justify-content: center;
+    background-color: grey;
+    font-size: 1.5rem;
+    display: block;
+    padding-left: 10rem;
+    font-family: 'Courier New';
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+
+/*index*/
+.titulo {
+    margin-left: auto;
+
+
+
+}
+.divtitulo{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.836) , rgba(126, 126, 91, 0.596));
+}
+
+.imagenG{
+    height: 70vh;
+    background-image: url(../imagenes/resto1.jpg);
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+.imagenG__texto{
+justify-content: center;
+   
+    color: white;
+font-size: 6rem;
+
+
+}
+.imagen__boton{
+    height: 10rem;
+    width: 10rem;
+    display: inline-block;
+    margin-top: 10rem;
+}
+
+
+@media (max-width: 1200px){
+    .imagen__boton{
+        margin: 0rem;
+        padding: 0rem;
+    }
+}
+
+
+/*conoce*/
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.tarjetas2, .cards2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+
+/*cualquiera*/
+.img{
+    width: 100%;
+    height: 100%;
+}
+.foto{
+    width: 50%;
+    height: 50%;
+}
