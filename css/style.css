@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap');
 * {
     margin: 0;
         padding: 0;
@@ -46,30 +47,66 @@ footer{
 }
 .divtitulo{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.836) , rgba(126, 126, 91, 0.596));
+    padding-right: 2rem;
 }
 
-.imagenG{
+/*.imagenG{
     height: 70vh;
     background-image: url(../imagenes/resto1.jpg);
     text-align: center;
     margin-top: 1rem;
     
+}*/
+
+
+.home{
+    position: relative;
+    right: 0;
+    width: 100%;
+    height: fit-content;
+    height: 800px;
+    min-width: 100vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    z-index: 2;
+
+}
+.home video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+
+
+
 }
 .imagenG__texto{
-justify-content: center;
-   
-    color: white;
+
+text-align:center;
+  width: 70%;
+color: white;
 font-size: 6rem;
 
 
 }
 .imagen__boton{
-    height: 10rem;
-    width: 10rem;
+    height: auto;
+    width: auto;
     display: inline-block;
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
+.btn{
+    width: 20rem;
+}
 
 @media (max-width: 1200px){
     .imagen__boton{
@@ -77,7 +114,9 @@ font-size: 6rem;
         padding: 0rem;
     }
 }
-
+.container{
+    height: 100vh;
+}
 
 /*conoce*/
 .tarjetas{
@@ -95,6 +134,41 @@ flex-wrap: wrap;
 gap: 1rem;
 }
 
+
+.banner{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+
+    
+    height: 15rem;
+    
+}
+.banner2{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.home__texto2{
+  
+}
+
+.home__texto{
+    font-size: 1rem;
+    font-family: var(Montserrat);
+  margin-right: 1rem;
+  margin-left: 1rem;
+font-weight: lighter;    color: #fff;
+    
+}
+.icon{
+    margin-top: 5rem;
+}
 
 /*cualquiera*/
 .img{
