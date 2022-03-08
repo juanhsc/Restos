@@ -1,6 +1,11 @@
 @charset "UTF-8";
-@import url(_footer.scss);
-@import url(_globales.scss);
+@import url("_globales.scss");
+@import url("_footer.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .divtitulo {
   display: flex;
   flex-direction: column;
@@ -151,3 +156,22 @@
   .foto {
     width: 100%;
     height: 100%; } }
+
+footer {
+  justify-content: center;
+  background-color: #434343;
+  font-size: 1.5rem;
+  font-family: 'Courier New';
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; }
+  footer .icon-tabler {
+    text-decoration: none; }
+  footer .footer__derechos {
+    background-color: #0000009c;
+    width: 100%;
+    color: white; }
+    footer .footer__derechos .footer__texto {
+      text-align: center; }
