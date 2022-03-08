@@ -1,0 +1,28 @@
+
+
+
+footer{
+    justify-content: center;
+    background-color:  #434343;
+    font-size: 1.5rem;
+    font-family: 'Courier New';
+    display: flex;
+    margin-top: 2rem;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+        .icon-tabler{
+            text-decoration: none;
+            }
+          
+         .footer__derechos{
+        background-color: #0000009c;
+        width: 100%;
+       color: white;
+        .footer__texto{
+            text-align: center;
+        }
+    }
+      
+}

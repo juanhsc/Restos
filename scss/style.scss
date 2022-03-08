@@ -1,0 +1,218 @@
+@import url(_footer.scss);
+@import url(_globales.scss);
+    
+
+    .divtitulo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.836) , rgba(126, 126, 91, 0.596));
+        padding-right: 2rem;
+           
+        .titulo {
+            margin-left: auto;
+                        
+        }
+        .navbar-toggler-icon{
+            margin-top: 5rem;
+        }
+                
+    }
+
+    .containert{
+
+    .home{
+        position: relative;
+        right: 0;
+        width: 100%;
+        height: fit-content;
+        height: 800px;
+        min-width: 100vh;
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background: #111;
+        color: #fff;
+                      
+        video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.5;
+            z-index: 1;
+        
+        
+        }
+        .imagenG__texto{
+
+            text-align:center;
+              width: 70%;
+            color: white;
+            font-size: 6rem;
+            z-index: 5;
+            
+            
+            }
+        .imagen__boton{
+            height: auto;
+            width: auto;
+            display: inline-block;
+            margin-top: 2rem;
+            z-index: 4;
+            .btn-home{
+                width: 20rem;
+                z-index: 3;
+            }
+            }
+    }
+
+
+
+
+    @media  (max-width: 768px){
+        .divtitulo{
+            margin: 0%;
+            padding: 0%;
+            justify-content: center;
+            display: flex;
+        }
+        
+    }
+
+
+
+    .home__recetas, .banner{
+        transition: all .5s ease-in-out;
+        background: #000000;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            height: 15rem;
+          
+
+            .home__texto{
+                font-size: 2rem;
+                font-family:var(Lobster);
+              margin-right: 6rem;
+              margin-left: 6rem;
+            font-weight: lighter;    color: #fff;
+            
+                
+            }
+              
+    }
+    .banner2{
+        background: #000000;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+    }
+   
+  
+}
+
+
+    @media (max-width: 768px){
+    
+        .home{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            width: auto;
+            height: auto;
+            object-fit: cover;
+            opacity: 0.9;
+            z-index: 5;
+        }
+        .imagenG__texto{
+           text-align:start;
+        }
+        .home__texto{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+        }
+        .home__texto2{
+    margin: 0;
+    padding: 0;
+    }
+    .banner{
+        height: auto;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+    }
+    .icon-tabler{
+        width: auto;
+        height: auto;
+    }
+        
+    }
+    
+
+
+
+@media (max-width: 1200px){
+    .imagen__boton{
+        margin: 0rem;
+        padding: 0rem;
+    }
+}
+
+/************************conoce restos*************************/
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/*recetas*/
+.tarjetas2, .cards2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+/*pequeñas historias*/
+
+
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+.foto{
+    width: 50%;
+    height: 50%;
+}
+@media (max-width: 768px){
+    .foto{
+        width:100%;
+        height:100%;
+    }
+}
+
