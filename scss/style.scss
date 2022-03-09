@@ -1,12 +1,5 @@
-@import url("_globales.scss");
-@import url("_footer.scss");
-
-* {
-    margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
+@import "_globales.scss";
+@import "_footer.scss";
 
 
     .divtitulo{
@@ -16,6 +9,7 @@
         background-image: linear-gradient(to left, rgba(0, 0, 0, 0.836) , rgba(126, 126, 91, 0.596));
         padding-right: 2rem;
            
+        
         .titulo {
             margin-left: auto;
                         
@@ -25,6 +19,7 @@
         }
                 
     }
+
 
     .containert{
 
@@ -80,19 +75,6 @@
 
 
 
-
-    @media  (max-width: 768px){
-        .divtitulo{
-            margin: 0%;
-            padding: 0%;
-            justify-content: center;
-            display: flex;
-        }
-        
-    }
-
-
-
     .home__recetas, .banner{
         transition: all .5s ease-in-out;
         background: #000000;  /* fallback for old browsers */
@@ -126,58 +108,49 @@
 }
 
 
-    @media (max-width: 768px){
-    
-        .home{
-            display:flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin: 0;
-            padding: 0;
-            width: auto;
-            height: auto;
-            object-fit: cover;
-            opacity: 0.9;
-            z-index: 5;
-        }
-        .imagenG__texto{
-           text-align:start;
-        }
-        .home__texto{
-    margin: 0;
+@media (max-width:768px){
+    .containert{
+    height: auto;
+    width: auto;
+.home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     padding: 0;
     text-align: center;
+    height: auto;
+    min-width:fit-content;
     
-        }
-        .home__texto2{
-    margin: 0;
-    padding: 0;
-    }
-    .banner{
-        height: auto;
-    display:flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    
-    }
-    .icon-tabler{
-        width: auto;
-        height: auto;
-    }
-        
-    }
-    
-
-
-
-@media (max-width: 1200px){
-    .imagen__boton{
-        margin: 0rem;
-        padding: 0rem;
+    .imagenG__texto{
+        font-size: 3rem;
     }
 }
+
+ .barras{
+              
+     svg{
+         display: none;
+     }
+     .banner{
+         height:auto;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         text-align: center;
+          }
+       }
+ }
+
+}
+
+
+
+ 
+    
+
+
+
+
 
 /************************conoce restos*************************/
 .tarjetas{
@@ -188,7 +161,7 @@
     margin-top: 2rem;
 }
 
-/*recetas*/
+/***************************************recetas*****************************/
 .tarjetas2, .cards2{
 display: flex;
 flex-direction: row;
@@ -216,7 +189,7 @@ gap: 1rem;
     width: 50%;
     height: 50%;
 }
-@media (max-width: 768px){
+@media (max-width: 1000px){
     .foto{
         width:100%;
         height:100%;
@@ -224,28 +197,3 @@ gap: 1rem;
 }
 
 
-footer{
-    justify-content: center;
-    background-color:  #434343;
-    font-size: 1.5rem;
-    font-family: 'Courier New';
-    display: flex;
-    margin-top: 2rem;
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-items: center;
-    
-        .icon-tabler{
-            text-decoration: none;
-            }
-          
-         .footer__derechos{
-        background-color: #0000009c;
-        width: 100%;
-       color: white;
-        .footer__texto{
-            text-align: center;
-        }
-    }
-      
-}
