@@ -1,10 +1,30 @@
 $vista:mobile;
 
+/*mapa*/
+$headings:(
+  h1: 4em,
+  h2: 3em,
+  h3: 2em,
+  h5: 1em,
+  h5: 0.75em,
+  h6: 0.35em
+);
+$h2: map-get($headings, h2 );
+
+h2{
+  font-size: $h2;
+}
 
 
+
+
+/*variables*/
 $blanco: white;
 $negro:black;
-$map:(fondob:#ffff,fondon:#0000,fondog:#434343);
+$lista:(#ffff,#0000,#434343);
+$primarioB: nth($lista, 1 );
+$secundarioN: nth($lista, 2 );
+
 $modo:dark;
 $dark_background:#000000;
 

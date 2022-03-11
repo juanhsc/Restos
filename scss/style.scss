@@ -7,7 +7,7 @@
 
 
 
-
+/***********************encabezado*******************/
 
     .div__titulo
     {
@@ -25,6 +25,7 @@
         }
                 
     }
+    /****************************************Index************************************/
     
     .navbar-toggler-icon
     {
@@ -110,7 +111,7 @@
                 font-family:var(Lobster);
               margin-right: 6rem;
               margin-left: 6rem;
-            font-weight: lighter;    color: #fff;
+            font-weight: lighter;    color: $primarioB;
            
            
             animation-duration: 3s;
@@ -130,7 +131,7 @@
    
   
 }
-
+/*Media del main*/
 
 @media (max-width:768px)
 {
@@ -189,10 +190,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 2rem;
     
 }
+.card-img-top:hover
+    
+    {-webkit-transform:scale(1.4);transform:scale(1.4);}
+    .card {overflow:hidden;} 
+    
+
 
 
 
@@ -202,6 +209,9 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 gap: 1rem;
+&:hover{
+    
+}
 }
 
 
@@ -212,7 +222,7 @@ gap: 1rem;
 
 
 
-/*pequeñas historias*/
+/*********************************pequeñas historias***********************************/
 
 
 

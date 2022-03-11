@@ -34,6 +34,7 @@ footer {
     margin-left: 0%;
     width: 100%; } }
 
+/***********************encabezado*******************/
 .div__titulo {
   display: flex;
   flex-direction: column;
@@ -43,6 +44,7 @@ footer {
   .div__titulo .titulo {
     margin-left: auto; }
 
+/****************************************Index************************************/
 .navbar-toggler-icon {
   margin-top: 5rem; }
 
@@ -105,7 +107,7 @@ footer {
     margin-right: 6rem;
     margin-left: 6rem;
     font-weight: lighter;
-    color: #fff;
+    color: #ffff;
     animation-duration: 3s;
     animation-name: slidein; }
 
@@ -117,6 +119,7 @@ footer {
   background: linear-gradient(to left, #434343, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
+/*Media del main*/
 @media (max-width: 768px) {
   .main {
     height: auto;
@@ -145,8 +148,15 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 2rem; }
+
+.card-img-top:hover {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4); }
+
+.card {
+  overflow: hidden; }
 
 /***************************************recetas*****************************/
 .tarjetas2, .cards2 {
@@ -155,7 +165,7 @@ footer {
   flex-wrap: wrap;
   gap: 1rem; }
 
-/*pequeñas historias*/
+/*********************************pequeñas historias***********************************/
 .img {
   width: 100%;
   height: 100%; }
