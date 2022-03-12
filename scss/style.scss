@@ -67,7 +67,7 @@
         .home__texto
         {
 
-            text-align:center;
+            @extend %textCenter;
               width: 70%;
             color: $blanco;
             font-size: 6rem;
@@ -78,8 +78,7 @@
         }
         .home__boton
         {
-            height: auto;
-            width: auto;
+            @extend %medidasAuto;
             display: inline-block;
             margin-top: 2rem;
             z-index: 4;
@@ -146,6 +145,7 @@
     flex-wrap: nowrap;
     padding: 0;
     text-align: center;
+    
     height: auto;
     min-width:fit-content;
     
@@ -182,8 +182,15 @@
     
 
 
-
-
+/*Registro*/
+.registro{
+  height: auto;
+  
+    .texto__registro{
+        
+        text-align: center;
+    }
+}
 
 /************************conoce restos*************************/
 .tarjetas{
@@ -200,7 +207,12 @@
     .card {overflow:hidden;} 
     
 
-
+    .restos__titulo{
+        .restos__texto{
+            text-align: center;
+        }
+    }
+    
 
 
 /***************************************recetas*****************************/
@@ -214,6 +226,11 @@ gap: 1rem;
 }
 }
 
+.recetas__titulo{
+    .recetas__texto{
+        text-align: center;
+    }
+}
 
 
 
@@ -241,4 +258,8 @@ gap: 1rem;
     }
 }
 
-
+.historias__titulo{
+    .historias__texto{
+        text-align: center;
+    }
+}

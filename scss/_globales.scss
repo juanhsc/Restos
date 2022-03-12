@@ -1,7 +1,6 @@
-
+@import "_variables";
 
 * {
-    margin: 0;
-        padding: 0;
+    @include marpad(0px,0px);
         box-sizing: border-box;
     }

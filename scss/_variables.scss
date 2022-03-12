@@ -1,11 +1,11 @@
 $vista:mobile;
 
-/*mapa*/
+/***********************************mapa**********************************************/
 $headings:(
   h1: 4em,
   h2: 3em,
   h3: 2em,
-  h5: 1em,
+  h4: 1em,
   h5: 0.75em,
   h6: 0.35em
 );
@@ -14,13 +14,29 @@ $h2: map-get($headings, h2 );
 h2{
   font-size: $h2;
 }
+/*********************************mixin***************************************************/
+@mixin marpad($margin,$padding){
+  margin:$margin;
+  padding:$padding;
+}
 
+/**************@extend******************/
+%textCenter{
+  text-align: center;
+}
 
+%medidasAuto{
+  width: auto;
+  height: auto;
+}
 
-
+/*******************Fin de extend*****************/
 /*variables*/
 $blanco: white;
 $negro:black;
+
+
+/***************************lista**************************/
 $lista:(#ffff,#0000,#434343);
 $primarioB: nth($lista, 1 );
 $secundarioN: nth($lista, 2 );
@@ -28,7 +44,7 @@ $secundarioN: nth($lista, 2 );
 $modo:dark;
 $dark_background:#000000;
 
-/*anumacion de letras del index*/
+/*******************animacion de letras del index***********************************/
 @keyframes slidein {
     from {
       margin-left: 100%;
@@ -40,3 +56,6 @@ $dark_background:#000000;
       width: 100%;
     }
   }
+
+
+  

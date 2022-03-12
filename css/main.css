@@ -1,9 +1,34 @@
 @charset "UTF-8";
+/***********************************mapa**********************************************/
 @import url(_animate.css);
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,100&display=swap");
+h2 {
+  font-size: 3em; }
+
+/*********************************mixin***************************************************/
+/**************@extend******************/
+.main .home .home__texto {
+  text-align: center; }
+
+.main .home .home__boton {
+  width: auto;
+  height: auto; }
+
+/*******************Fin de extend*****************/
+/*variables*/
+/***************************lista**************************/
+/*******************animacion de letras del index***********************************/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box; }
 
 footer {
@@ -25,7 +50,23 @@ footer {
     footer .footer__derechos .footer__texto {
       text-align: center; }
 
-/*anumacion de letras del index*/
+/***********************************mapa**********************************************/
+h2 {
+  font-size: 3em; }
+
+/*********************************mixin***************************************************/
+/**************@extend******************/
+.main .home .home__texto {
+  text-align: center; }
+
+.main .home .home__boton {
+  width: auto;
+  height: auto; }
+
+/*******************Fin de extend*****************/
+/*variables*/
+/***************************lista**************************/
+/*******************animacion de letras del index***********************************/
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -72,15 +113,12 @@ footer {
     opacity: 0.5;
     z-index: 1; }
   .main .home .home__texto {
-    text-align: center;
     width: 70%;
     color: white;
     font-size: 6rem;
     z-index: 5;
     --animate-duration: 2s; }
   .main .home .home__boton {
-    height: auto;
-    width: auto;
     display: inline-block;
     margin-top: 2rem;
     z-index: 4; }
@@ -143,6 +181,12 @@ footer {
       flex-wrap: wrap;
       text-align: center; } }
 
+/*Registro*/
+.registro {
+  height: auto; }
+  .registro .texto__registro {
+    text-align: center; }
+
 /************************conoce restos*************************/
 .tarjetas {
   display: flex;
@@ -158,12 +202,18 @@ footer {
 .card {
   overflow: hidden; }
 
+.restos__titulo .restos__texto {
+  text-align: center; }
+
 /***************************************recetas*****************************/
 .tarjetas2, .cards2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem; }
+
+.recetas__titulo .recetas__texto {
+  text-align: center; }
 
 /*********************************pequeñas historias***********************************/
 .img {
@@ -178,3 +228,6 @@ footer {
   .foto {
     width: auto;
     height: auto; } }
+
+.historias__titulo .historias__texto {
+  text-align: center; }
