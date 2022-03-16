@@ -44,6 +44,9 @@ footer {
   align-items: center; }
   footer .icon-tabler {
     text-decoration: none; }
+    footer .icon-tabler:hover {
+      width: 66px;
+      height: 66px; }
   footer .footer__derechos {
     background-color: #0000009c;
     width: 100%;
@@ -216,6 +219,12 @@ h2 {
 .recetas__titulo .recetas__texto {
   text-align: center; }
 
+@media (max-width: 768px) {
+  .tarjetas2 {
+    justify-content: center;
+    width: auto;
+    height: auto; } }
+
 /*********************************pequeñas historias***********************************/
 .img {
   width: 100%;
@@ -225,7 +234,7 @@ h2 {
   width: 50%;
   height: 50%; }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .foto {
     width: auto;
     height: auto; } }

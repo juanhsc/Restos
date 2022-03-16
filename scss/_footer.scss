@@ -13,6 +13,11 @@ footer{
     align-items: center;
        .icon-tabler{
          text-decoration: none;
+         &:hover{
+             width: 66px;
+             height: 66px;
+             
+         }
             }
         .footer__derechos{
         background-color: #0000009c;
@@ -24,3 +29,4 @@ footer{
     }
       
 }
+
