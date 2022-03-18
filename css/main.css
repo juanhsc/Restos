@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /***********************************mapa**********************************************/
 @import url(_animate.css);
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 h2 {
   font-size: 3em; }
 
@@ -23,7 +23,7 @@ h2 {
     margin-left: 100%;
     width: 300%; }
   to {
-    margin-left: 0%;
+    margin-left: 05%;
     width: 100%; } }
 
 * {
@@ -47,6 +47,8 @@ footer {
     footer .icon-tabler:hover {
       width: 66px;
       height: 66px; }
+  footer .footer__redes {
+    height: 62px; }
   footer .footer__derechos {
     background-color: #0000009c;
     width: 100%;
@@ -76,7 +78,7 @@ h2 {
     margin-left: 100%;
     width: 300%; }
   to {
-    margin-left: 0%;
+    margin-left: 05%;
     width: 100%; } }
 
 /***********************encabezado*******************/
@@ -145,7 +147,7 @@ h2 {
   height: 15rem; }
   .main .home__recetas .home__texto, .main .banner .home__texto {
     font-size: 2rem;
-    font-family: var(Lobster);
+    font-family: 'Dancing Script', cursive;
     margin-right: 6rem;
     margin-left: 6rem;
     font-weight: lighter;
@@ -192,6 +194,14 @@ h2 {
     text-align: center; }
 
 /************************conoce restos*************************/
+.contaniner__background {
+  background-color: #000000;
+  height: 600px;
+  background-image: url(../imagenes/open.jpg);
+  background-position: center;
+  position: sticky;
+  top: 10px; }
+
 .tarjetas {
   display: flex;
   flex-direction: row;
