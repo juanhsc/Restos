@@ -3,11 +3,23 @@ Trabajo practico usando boostrap
 
 Este proyecto esta realizado en boostrap y fue hecho para el curso de coderhouse.
 
-<<<<<<< HEAD
-El sitio es una pagina de restaurants vips, los cuales son bastante importantes y exclusivos o sea restaurants que podes ingresar con invitacion o recomendacion. En este se informa cuales son los mismos. Tambien se puede ver una seccion con recetas de algunos platos de cocina como tambien hay una pagina con historias de cocineras famosas.
-=======
-El sitio es una pagina de restaurants vips, los cuales son bastante importantes y exclusivos o sea restaurants que podes ingresar con invitacion o recomendacion. En este se informa cuales son los mismos.
-Tambien se puede ver una seccion con recetas de algunos platos de cocina como tambien hay una pagina con historias de cocineras famosas.
->>>>>>> c3b6870cb9c061b547ba116dd6f1d391bac4632a
 
-Como ultimo el usuario tiene la posibilidad de registrarse para recibir newsslesters de los restos segun su preferencias.
+Informacion sobre la pagina:
+
+El presente sitio tiene la finalidad de hacer conocer los restaurants mas prestigiosos de Buenos Aires. Dado que la mayoria de estos ( los mas caros) no se promueven, es dificil conseguir cita o la entrada es exclusivamente con invitacion.
+
+El inicio es Basico donde puede verse un pequeño video de una cocina con una pequeña descripcion de lo que contiene el sitio, el unico enlace en este es hacia la pagina de restaurants donde se puede observar una foto, una pequeña descripcion y un enlace al mapa de donde se hubica el restaurant seleccionado.
+Desde el menu se puede acceder a distintas secciones como el ya visto Home y "conoce los restos", estos son:
+-Recetas: Donde se puede aprender a realizar las mejores comida de los chef mas reconocidos.
+-Pequeñas historias: cuenta de manera resumida la historia de los chef mas emblematicos del sector como se hicieron, como perduraron y como triunfaron en el sector.
+-Formulario: En el cual como unica forma se puede lograr conseguir lugar en alguno de estos restaurant, ya que si no se cuenta con una invitacion personal del restaurant seleccionado el sitio brinda una suscripcion con autorizacion para comer en el mismo.
+
+El sitio esta realizado con:
+
+*HTML 5
+*CSS 3
+*SASS
+*BOOSTRAP
+
+Espero que este sea de su agrado.
+

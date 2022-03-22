@@ -46,17 +46,22 @@ $modo:dark;
 $dark_background:#000000;
 
 /*******************animacion de letras del index***********************************/
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
+
+@media (min-width: 768px)
+{
   
-    to {
-      margin-left: 05%;
-      width: 100%;
+
+  @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 04%;
+        width: 100%;
+      }
     }
-  }
 
-
+}
   
