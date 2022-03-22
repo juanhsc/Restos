@@ -12,6 +12,10 @@ footer{
     flex-direction:column;
     flex-wrap: wrap;
     align-items: center;
+    
+    .footer__link{
+        text-decoration: none;
+    }
        .icon-tabler{
          text-decoration: none;
          &:hover{
@@ -22,6 +26,7 @@ footer{
             }
             .footer__redes{
                 height: 62px;
+                
                
             }
         .footer__derechos{

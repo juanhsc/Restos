@@ -1,8 +1,14 @@
 @import "_variables";
 
+
 * {
     @include marpad(0px,0px);
         box-sizing: border-box;
     }
 
     /*poner ovhey fit*/
+
+ h2{
+     font-family: cursive;
+     
+ }

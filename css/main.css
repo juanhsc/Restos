@@ -3,7 +3,7 @@
 @import url(_animate.css);
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 h2 {
-  font-size: 3em; }
+  font-size: 4em; }
 
 /*********************************mixin***************************************************/
 /**************@extend******************/
@@ -32,6 +32,9 @@ h2 {
   box-sizing: border-box; }
 
 /*poner ovhey fit*/
+h2 {
+  font-family: cursive; }
+
 footer {
   justify-content: center;
   background-color: #434343;
@@ -42,6 +45,8 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center; }
+  footer .footer__link {
+    text-decoration: none; }
   footer .icon-tabler {
     text-decoration: none; }
     footer .icon-tabler:hover {
@@ -58,7 +63,7 @@ footer {
 
 /***********************************mapa**********************************************/
 h2 {
-  font-size: 3em; }
+  font-size: 4em; }
 
 /*********************************mixin***************************************************/
 /**************@extend******************/
@@ -86,8 +91,9 @@ h2 {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.836), rgba(126, 126, 91, 0.596));
-  padding-right: 2rem; }
+  background-image: linear-gradient(to left, rgba(88, 88, 72, 0.664), rgba(0, 0, 0, 0.808));
+  padding-right: 2rem;
+  font-family: cursive; }
   .div__titulo .titulo {
     margin-left: auto; }
 
@@ -194,13 +200,15 @@ h2 {
     text-align: center; }
 
 /************************conoce restos*************************/
+.restos__titulo .restos__texto {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
 .contaniner__background {
   background-color: #000000;
-  height: 600px;
+  height: 400px;
   background-image: url(../imagenes/open.jpg);
-  background-position: center;
-  position: sticky;
-  top: 10px; }
+  background-position: center; }
 
 .tarjetas {
   display: flex;
@@ -208,13 +216,13 @@ h2 {
   flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem; }
-
-.card-img-top:hover {
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4); }
-
-.card {
-  overflow: hidden; }
+  .tarjetas .btn-primary {
+    background-color: #434343;
+    border-color: antiquewhite; }
+    .tarjetas .btn-primary:hover {
+      background-color: rgba(126, 126, 91, 0.596);
+      border-color: #000000;
+      color: #000000; }
 
 .restos__titulo .restos__texto {
   text-align: center; }
@@ -225,6 +233,9 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem; }
+  .tarjetas2 .card__hover, .cards2 .card__hover {
+    font-size: 2.2rem;
+    text-align: center; }
 
 .recetas__titulo .recetas__texto {
   text-align: center; }
@@ -243,6 +254,9 @@ h2 {
 .img {
   position: absolute; }
 
+.foto {
+  border-radius: 70%; }
+
 @media (max-width: 880px) {
   .foto {
     width: auto;
@@ -251,5 +265,8 @@ h2 {
     width: 100%;
     height: 50%; } }
 
-.historias__titulo .historias__texto {
+.historias .historias__titulo {
   text-align: center; }
+
+.historias__texto {
+  text-align: justify; }
