@@ -38,11 +38,11 @@
         margin-top: 5rem;
     }
 
-    @media (max-width:768px)  {
-        .navbar-nav{
-          align-items: center;
-        }
-    }
+  @media (max-width:768px){
+    .container-fluid{
+
+      }
+  }
 
       /****************************************Index************************************/
     .main
@@ -117,7 +117,7 @@
             height: 15rem;
           
 
-            .home__texto
+            .home__texto__banner
             {
                 font-size: 2rem;
                 font-family: 'Dancing Script', cursive;
@@ -143,7 +143,7 @@
 }
 /*Media del main*/
 
-@media (max-width:768px)
+@media (max-width:820px)
 {
     .main
     {
@@ -160,9 +160,9 @@
     height: auto;
     min-width:fit-content;
     
-    .home__texto
+    .animate__flash
     {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     }
 
@@ -180,9 +180,14 @@
          flex-direction: column;
          flex-wrap: wrap;
          text-align: justify;
+
+         .home__texto__banner{
+             font-size: 1rem;
+             margin: 1rem;
+         }
      }
        }
- }
+    }
 
 }
 
@@ -201,6 +206,12 @@
         
         text-align: center;
     }
+    
+}
+.formulario__boton{
+.btn-primary {
+    background-color: #434343 ;
+}
 }
 
 /***************************************conoce restos************************************/
@@ -219,12 +230,6 @@
    background-size:cover;
    background-position: center;
      
-}
-@media (max-width:768px){
-    .contaniner__background{
-        
-        
-    }
 }
 
 
@@ -324,15 +329,14 @@ gap: 1rem;
 .foto{
     border-radius: 70%;
 }
-@media (max-width: 880px){
+@media (max-width: 1000px){
     .foto{
         width:auto;
         height:auto;
     }
-    .img{
+    .contenedorImag{
         
-        width: 100%;
-        height: 50%;
+        display: none;
     }
   
 }
