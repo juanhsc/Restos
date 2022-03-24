@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /***********************************mapa**********************************************/
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap");
 @import url(_animate.css);
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 h2 {
   font-size: 4em; }
@@ -34,7 +36,7 @@ h2 {
 
 /*poner ovhey fit*/
 h2 {
-  font-family: cursive; }
+  font-family: 'Source Sans Pro', sans-serif; }
 
 footer {
   justify-content: center;
@@ -131,7 +133,8 @@ h2 {
     color: white;
     font-size: 6rem;
     z-index: 5;
-    --animate-duration: 4s; }
+    --animate-duration: 4s;
+    font-family: 'Shadows Into Light', cursive; }
   .main .home .home__boton {
     display: inline-block;
     margin-top: 2rem;
@@ -182,7 +185,7 @@ h2 {
       flex-wrap: nowrap;
       padding: 0;
       text-align: center;
-      height: auto;
+      height: 20rem;
       min-width: fit-content; }
       .main .home .animate__flash {
         font-size: 2rem; }
@@ -240,6 +243,8 @@ h2 {
   text-align: center; }
 
 @media (max-width: 768px) {
+  .contaniner__background {
+    height: 10rem; }
   .tarjetas {
     justify-content: center; } }
 

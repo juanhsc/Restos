@@ -2,7 +2,7 @@
 @import "_footer.scss";
 @import "_variables";
 @import '_animate.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 
@@ -38,11 +38,7 @@
         margin-top: 5rem;
     }
 
-  @media (max-width:768px){
-    .container-fluid{
-
-      }
-  }
+ 
 
       /****************************************Index************************************/
     .main
@@ -86,6 +82,7 @@
             font-size: 6rem;
             z-index: 5;
             --animate-duration: 4s;
+            font-family: 'Shadows Into Light', cursive;
             
             
         }
@@ -157,7 +154,7 @@
     padding: 0;
     text-align: center;
     
-    height: auto;
+    height: 20rem;
     min-width:fit-content;
     
     .animate__flash
@@ -265,6 +262,9 @@
     }
     
 @media (max-width:768px){
+    .contaniner__background{
+        height: 10rem;
+    }
     .tarjetas{
         justify-content: center;
         
